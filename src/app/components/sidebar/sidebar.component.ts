@@ -15,7 +15,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/dashboard",
     title: "Dashboard",
     rtlTitle: "لوحة القيادة",
-    icon: "icon-chart-pie-36",
+    icon: "",
     class: "",
     children : []
     
@@ -24,7 +24,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/products",
     title: "Products and services",
     rtlTitle: "ملف تعريفي للمستخدم",
-    icon: "icon-bag-16",
+    icon: "",
     class: "",
     children : [
       {path: "/ProductsNewProduct",title: "newProduct"},
@@ -41,7 +41,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/warehouses",
     title: "warehouses",
     rtlTitle: "ملف تعريفي للمستخدم",
-    icon: "icon-bag-16",
+    icon: "",
     class: "",
     children : [
       {path: "/WarehousesNewWarehouse",title: "newWarehouse"},
@@ -56,7 +56,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/icons",
     title: "Users",
     rtlTitle: "الرموز",
-    icon: "icon-single-02",
+    icon: "",
     class: "",
     children : []
   },
@@ -64,7 +64,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/maps",
     title: "Company",
     rtlTitle: "خرائط",
-    icon: "icon-components",
+    icon: "",
     class: "",
     children : []
    },
@@ -72,7 +72,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/notifications",
     title: "Customers and Suppliers",
     rtlTitle: "إخطارات",
-    icon: "icon-link-72",
+    icon: "",
     class: "",
     children : []
   },
@@ -80,7 +80,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/tables",
     title: "Purshases",
     rtlTitle: "قائمة الجدول",
-    icon: "icon-money-coins",
+    icon: "",
     class: "",
     children : []
   },
@@ -88,7 +88,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Sales",
     rtlTitle: "طباعة",
-    icon: "icon-coins",
+    icon: "",
     class: "",
     children : []
   },
@@ -96,7 +96,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Financial Statements",
     rtlTitle: "طباعة",
-    icon: "icon-bank",
+    icon: "",
     class: "",
     children : []
   },
@@ -104,7 +104,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Digital Marketing",
     rtlTitle: "طباعة",
-    icon: "icon-chart-bar-32",
+    icon: "",
     class: "",
     children : []
   },
@@ -112,7 +112,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Reports",
     rtlTitle: "طباعة",
-    icon: "icon-notes",
+    icon: "",
     class: "",
     children : []
   },
@@ -120,7 +120,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Setting",
     rtlTitle: "طباعة",
-    icon: "icon-settings",
+    icon: "",
     class: "",
     children : []
   },
@@ -128,7 +128,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/typography",
     title: "Support",
     rtlTitle: "طباعة",
-    icon: "icon-support-17",
+    icon: "",
     class: "",
     children : []
   },
@@ -136,7 +136,7 @@ export const ROUTES: RouteInfo[] = [
     path: "/rtl",
     title: "RTL Support",
     rtlTitle: "ار تي ال",
-    icon: "icon-world",
+    icon: "",
     class: "",
     children : []
   }

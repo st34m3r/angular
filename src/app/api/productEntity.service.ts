@@ -45,7 +45,7 @@ import { Configuration }                                     from '../configurat
 @Injectable()
 export class ProductEntityService {
 
-    protected basePath = 'https://localhost:8005';
+    protected basePath = 'http://localhost:8005';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
 

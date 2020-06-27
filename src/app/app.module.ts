@@ -62,10 +62,18 @@ import { UserRightsEntityService } from './api/userRightsEntity.service';
 import { UsergroupEntityService } from './api/usergroupEntity.service';
 import { UsergroupRightsEntityService } from './api/usergroupRightsEntity.service';
 import { UsergroupUserEntityService } from './api/usergroupUserEntity.service';
+import { ProductComponent } from './pages/product/product.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports:      [
     BrowserAnimationsModule,
+    BrowserModule,
+    CommonModule,
     FormsModule,
     HttpClientModule,
     ComponentsModule,
@@ -79,10 +87,18 @@ import { UsergroupUserEntityService } from './api/usergroupUserEntity.service';
     AdminLayoutComponent,
     AuthLayoutComponent,
     AppComponent,
+    ProductComponent,
+    LoginComponent,
+    RegisterComponent,
+   
+    
   ],
-  exports:      [],
+  exports:[
+    ProductComponent
+  ],
   bootstrap: [AppComponent],
   providers: [
+    
     AuthControllerService,
     BankAccountEntityService,
     BankCategEntityService,

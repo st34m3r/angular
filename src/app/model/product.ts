@@ -42,5 +42,4 @@ export interface Product {
     tosell?: number;
     volume?: number;
     volumeUnits?: number;
-    weight?: number;
 }
