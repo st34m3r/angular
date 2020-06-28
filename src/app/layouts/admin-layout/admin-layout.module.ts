@@ -14,6 +14,9 @@ import {TypographyComponent} from "../../pages/typography/typography.component";
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import { ProductsComponent } from 'src/app/pages/products/products.component';
+import { NewproductComponent } from 'src/app/pages/products/newproduct/newproduct.component';
+import { HotelModule } from 'src/app/pages/hotel/hotel.module';
 
 @NgModule({
   imports: [
@@ -22,6 +25,7 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     FormsModule,
     HttpClientModule,
     NgbModule,
+    HotelModule
   ],
   declarations: [
     DashboardComponent,
@@ -30,6 +34,9 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     TypographyComponent,
     NotificationsComponent,
     MapComponent,
+    ProductsComponent,
+    NewproductComponent,
+    
     // RtlComponent
   ]
 })

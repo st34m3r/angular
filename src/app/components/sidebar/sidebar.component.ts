@@ -27,14 +27,9 @@ export const ROUTES: RouteInfo[] = [
     icon: "",
     class: "",
     children : [
-      {path: "/ProductsNewProduct",title: "newProduct"},
-      {path: "/ProductsList",title: "list"},
+      {path: "/products/newproduct",title: "newProduct"},
+      {path: "dd",title: "new product"},
       {path: "/ProductsStocks",title: "Stocks"},
-      {path: "/ProductsStocksByLots",title: "Stocks by lot"},
-       {path: "/ProductsLot",title: "lots"},
-      {path: "/ProductsVA",title: "Variant attributes"},
-      {path: "/ProductsStatistics",title: "Statistics"},
-      {path: "/ProductsCategories",title: "tags/categories"},
     ]
   },
   {

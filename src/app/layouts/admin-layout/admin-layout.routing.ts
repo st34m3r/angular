@@ -8,7 +8,8 @@ import {TablesComponent} from '../../pages/tables/tables.component';
 import {TypographyComponent} from '../../pages/typography/typography.component';
 import {UsersComponent} from '../../pages/users/users.component';
 import {CompanyComponent} from '../../pages/company/company.component';
-import { ProductComponent } from 'src/app/pages/Product/product.component';
+import { ProductsComponent } from 'src/app/pages/products/products.component';
+import { NewproductComponent } from 'src/app/pages/products/newproduct/newproduct.component';
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 export const AdminLayoutRoutes: Routes = [
@@ -20,7 +21,10 @@ export const AdminLayoutRoutes: Routes = [
   {path: 'notifications', component: NotificationsComponent},
   {path: 'tables', component: TablesComponent},
   {path: 'typography', component: TypographyComponent},
-  {path : 'products' , component: ProductComponent}
+  {path : 'products' , component: ProductsComponent},
+  {path : 'products/newproduct', component: NewproductComponent}
+  //{path : 'newproduct' , component: NewProductComponent}
+
 
 
   // { path: "rtl", component: RtlComponent }
